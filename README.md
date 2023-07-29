@@ -2,6 +2,8 @@
 
 Creating a login animation using css, html, typescript (Angular IO)
 
+![Preview](https://github.com/TalissonJunior/github/assets/preview.gif)
+
 ### Prerequisites
 
 - [Angular CLI >= 15.2.0](https://www.npmjs.com/package/@angular/cli?activeTab=versions) 
