@@ -2,7 +2,7 @@
 
 Creating a login animation using css, html, typescript (Angular IO)
 
-![Preview](https://github.com/TalissonJunior/github/assets/preview.gif)
+![Preview](./github/assets/preview.gif)
 
 ### Prerequisites
 
