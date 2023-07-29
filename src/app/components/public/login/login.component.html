@@ -1,0 +1,126 @@
+<div class="main-container">
+
+    <div class="main-content" [ngClass]="showingPage">
+
+        <!-- SIGN IN CONTAINER -->
+        <div class="signin-container">
+           
+            <div class="login-container">
+
+                <div class="signin-content">
+
+                    <div class="form-content">
+
+                        <span class="title">Sign in to MyApp</span>
+
+                        <div class="social-medias">
+
+                            <div class="social-icon">
+                                <img src="assets/images/facebook.png">
+                            </div>
+
+                            <div class="social-icon">
+                                <img src="assets/images/google-plus.png">
+                            </div>
+
+                            <div class="social-icon">
+                                <img src="assets/images/linkedin.png">
+                            </div>
+                        </div>
+
+                        <span class="subtitle">or use your email account</span>
+
+                        <div class="input-container">
+                            <img src="assets/images/o-email.png" alt="">
+                            <input type="text" placeholder="Email">
+                        </div>
+
+                        <div class="input-container">
+                            <img src="assets/images/trancar.png" alt="">
+                            <input type="text" placeholder="Password">
+                        </div>
+
+                        <span class="custom-subtitle">Forgot your password?</span>
+
+                        <button class="main-button">
+                            SIGN IN
+                        </button>
+                    </div>
+                </div>
+
+                <div class="greeting-container">
+                    <div class="greeting-content">
+
+                        <span class="greeting-title">Hello, Friend</span>
+                        <span class="greeting-subtitle">Enter your personal details and start journey with us</span>
+                    </div>
+                </div>
+            </div>
+            <!-- END SIGN IN CONTAINER -->
+
+            <!-- SIGN UP CONTAINER -->
+            <div class="account-container">
+
+                <div class="greeting-container">
+                    <div class="greeting-content">
+
+                        <span class="greeting-title">Welcome Back!</span>
+                        <span class="greeting-subtitle">To keep connected with us please login with your personal info</span>
+                    </div>
+                </div>
+
+                <div class="signin-content">
+
+                    <div class="form-content">
+
+                        <span class="title">Create Account</span>
+
+                        <div class="social-medias">
+
+                            <div class="social-icon">
+                                <img src="assets/images/facebook.png">
+                            </div>
+
+                            <div class="social-icon">
+                                <img src="assets/images/google-plus.png">
+                            </div>
+
+                            <div class="social-icon">
+                                <img src="assets/images/linkedin.png">
+                            </div>
+                        </div>
+
+                        <span class="subtitle">or use your email for registration</span>
+
+                        <div class="input-container">
+                            <img src="assets/images/user.png" alt="">
+                            <input type="text" placeholder="Name">
+                        </div>
+
+                        <div class="input-container">
+                            <img src="assets/images/o-email.png" alt="">
+                            <input type="text" placeholder="Email">
+                        </div>
+
+                        <div class="input-container">
+                            <img src="assets/images/trancar.png" alt="">
+                            <input type="text" placeholder="Password">
+                        </div>
+
+                        <button class="main-button">
+                            SIGN UP
+                        </button>
+                    </div>
+                </div>
+                <!-- END SIGN UP CONTAINER -->
+
+            </div>
+
+            <div class="slide-shape">
+                <button class="main-button custom" (click)="toggleView()">
+                    <span class="sign-up">SIGN UP</span>
+                    <span class="sign-in">SIGN IN</span>
+                </button>
+            </div>
+        </div>
+    </div>
